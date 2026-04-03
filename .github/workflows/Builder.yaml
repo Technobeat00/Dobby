@@ -66,7 +66,7 @@ jobs:
         tag: latest
         body: "a lightweight, multi-platform, multi-architecture exploit hook framework"
         artifacts: "build/dobby-linux-all.tar.gz,build/dobby-android-all.tar.gz"
-        allowUpdates: true
+        allowUpdates: false
         replacesArtifacts: true
 
   macos_and_iphoneos:
